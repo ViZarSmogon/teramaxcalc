@@ -1302,7 +1302,11 @@ function calcStat(poke, StatID) {
 	// Shedinja still has 1 max HP during the effect even if its Dynamax Level is maxed (DaWoblefet)
 	var total = calc.calcStat(gen, legacyStatToStat(StatID), base, ivs, evs, level, nature);
 	if (gen > 7 && StatID === "hp" && poke.isDynamaxed && total !== 1) {
-		total *= 2;
+		if (poke.find(".item").val() === 'Wishing Stone') {
+			total *= 1.5;
+		} else {
+			total *= 2;
+		}
 	}
 	stat.find(".total").text(total);
 	return total;
