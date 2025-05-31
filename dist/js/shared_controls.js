@@ -1308,7 +1308,7 @@ function calcStat(poke, StatID) {
 			total *= 2;
 		}
 	}
-	stat.find(".total").text(total);
+	stat.find(".total").text(Math.round(total));
 	return Math.round(total);
 }
 
