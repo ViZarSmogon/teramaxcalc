@@ -107,7 +107,7 @@ var RBY = {
     },
     Blastoise: {
         types: ['Water'],
-        bs: { hp: 79, at: 83, df: 100, sp: 78, sl: 85 },
+        bs: { hp: 79, at: 83, df: 110, sp: 78, sl: 85 },
         weightkg: 85.5
     },
     Bulbasaur: {
@@ -427,7 +427,7 @@ var RBY = {
     },
     Machamp: {
         types: ['Fighting'],
-        bs: { hp: 90, at: 130, df: 80, sp: 55, sl: 65 },
+        bs: { hp: 110, at: 140, df: 80, sp: 55, sl: 65 },
         weightkg: 130
     },
     Machoke: {
@@ -776,7 +776,7 @@ var RBY = {
     },
     Venusaur: {
         types: ['Grass', 'Poison'],
-        bs: { hp: 80, at: 82, df: 83, sp: 80, sl: 100 },
+        bs: { hp: 80, at: 82, df: 90, sp: 80, sl: 100 },
         weightkg: 100
     },
     Victreebel: {
@@ -850,7 +850,7 @@ var GSC_PATCH = {
     Articuno: { bs: { sa: 95, sd: 125 }, gender: 'N' },
     Beedrill: { bs: { sa: 45, sd: 80 } },
     Bellsprout: { bs: { sa: 70, sd: 30 } },
-    Blastoise: { bs: { sa: 85, sd: 105 } },
+    Blastoise: { bs: { sa: 95, sd: 120 } },
     Bulbasaur: { bs: { sa: 65, sd: 65 } },
     Butterfree: { bs: { sa: 80, sd: 80 } },
     Caterpie: { bs: { sa: 20, sd: 20 } },
@@ -910,7 +910,7 @@ var GSC_PATCH = {
     Kingler: { bs: { sa: 50, sd: 50 } },
     Koffing: { bs: { sa: 60, sd: 45 } },
     Krabby: { bs: { sa: 25, sd: 25 } },
-    Lapras: { bs: { sa: 115, sd: 95 } },
+    Lapras: { bs: { sa: 120, sd: 95 } },
     Lickitung: { bs: { sa: 60, sd: 75 } },
     Machamp: { bs: { sa: 65, sd: 85 } },
     Machoke: { bs: { sa: 50, sd: 60 } },
@@ -981,7 +981,7 @@ var GSC_PATCH = {
     Vaporeon: { bs: { sa: 110, sd: 95 } },
     Venomoth: { bs: { sa: 90, sd: 75 } },
     Venonat: { bs: { sa: 40, sd: 55 } },
-    Venusaur: { bs: { sa: 100, sd: 100 } },
+    Venusaur: { bs: { sa: 113, sd: 115 } },
     Victreebel: { bs: { sa: 100, sd: 60 } },
     Vileplume: { bs: { sa: 100, sd: 90 } },
     Voltorb: { bs: { sa: 55, sd: 55 }, gender: 'N' },
@@ -1533,7 +1533,7 @@ var ADV_PATCH = {
     Articuno: { abilities: { 0: 'Pressure' } },
     Beedrill: { abilities: { 0: 'Swarm' } },
     Bellsprout: { abilities: { 0: 'Chlorophyll' } },
-    Blastoise: { abilities: { 0: 'Torrent' } },
+    Blastoise: { abilities: { 0: 'Filter' } },
     Bulbasaur: { abilities: { 0: 'Overgrow' } },
     Butterfree: { abilities: { 0: 'Compound Eyes' } },
     Caterpie: { abilities: { 0: 'Shield Dust' } },
@@ -2321,9 +2321,9 @@ var ADV_PATCH = {
     },
     Ninjask: {
         types: ['Bug', 'Ground'],
-        bs: { hp: 81, at: 110, df: 45, sa: 50, sd: 50, sp: 160 },
+        bs: { hp: 81, at: 115, df: 60, sa: 50, sd: 50, sp: 160 },
         weightkg: 12,
-        abilities: { 0: 'Sharpness' }
+        abilities: { 0: 'Tough Claws' }
     },
     Nosepass: {
         types: ['Rock'],
@@ -3679,8 +3679,8 @@ var DPP_PATCH = {
         abilities: { 0: 'Pressure' }
     },
     Staraptor: {
-        types: ['Normal', 'Flying'],
-        bs: { hp: 85, at: 120, df: 70, sa: 50, sd: 50, sp: 100 },
+        types: ['Fighting', 'Flying'],
+        bs: { hp: 85, at: 109, df: 81, sa: 50, sd: 50, sp: 100 },
         weightkg: 24.9,
         abilities: { 0: 'Intimidate' }
     },
@@ -4205,9 +4205,9 @@ var BW_PATCH = {
     },
     Garbodor: {
         types: ['Poison'],
-        bs: { hp: 100, at: 95, df: 95, sa: 60, sd: 85, sp: 75 },
+        bs: { hp: 100, at: 100, df: 100, sa: 60, sd: 100, sp: 75 },
         weightkg: 107.3,
-        abilities: { 0: 'Stench' }
+        abilities: { 0: 'Merciless' }
     },
     Genesect: {
         types: ['Bug', 'Steel'],
@@ -7607,7 +7607,7 @@ var SS_PATCH = {
         types: ['Grass', 'Dragon'],
         bs: { hp: 110, at: 75, df: 90, sa: 120, sd: 100, sp: 25 },
         weightkg: 0,
-        abilities: { 0: 'Marvel Scale' },
+        abilities: { 0: 'Grassy Surge' },
         baseSpecies: 'Appletun'
     },
     Applin: {
@@ -7660,7 +7660,7 @@ var SS_PATCH = {
     },
     'Blastoise-Gmax': {
         types: ['Water'],
-        bs: { hp: 79, at: 83, df: 100, sa: 85, sd: 105, sp: 78 },
+        bs: { hp: 79, at: 83, df: 110, sa: 95, sd: 120, sp: 78 },
         weightkg: 0,
         abilities: { 0: 'Stamina' },
         baseSpecies: 'Blastoise'
@@ -7703,7 +7703,7 @@ var SS_PATCH = {
     },
     'Calyrex-Shadow': {
         types: ['Psychic', 'Ghost'],
-        bs: { hp: 100, at: 85, df: 80, sa: 165, sd: 100, sp: 150 },
+        bs: { hp: 100, at: 90, df: 100, sa: 145, sd: 110, sp: 135 },
         weightkg: 53.6,
         abilities: { 0: 'As One (Spectrier)' },
         gender: 'N',
@@ -7788,14 +7788,14 @@ var SS_PATCH = {
     },
     Copperajah: {
         types: ['Steel'],
-        bs: { hp: 122, at: 130, df: 69, sa: 80, sd: 94, sp: 30 },
+        bs: { hp: 122, at: 130, df: 84, sa: 80, sd: 94, sp: 30 },
         weightkg: 650,
         abilities: { 0: 'Sheer Force' },
         otherFormes: ['Copperajah-Gmax']
     },
     'Copperajah-Gmax': {
         types: ['Steel'],
-        bs: { hp: 122, at: 130, df: 69, sa: 80, sd: 94, sp: 30 },
+        bs: { hp: 122, at: 130, df: 84, sa: 80, sd: 94, sp: 30 },
         weightkg: 0,
         abilities: { 0: 'Bulletproof' },
         baseSpecies: 'Copperajah'
@@ -7955,14 +7955,14 @@ var SS_PATCH = {
     },
     Duraludon: {
         types: ['Steel', 'Dragon'],
-        bs: { hp: 70, at: 95, df: 115, sa: 110, sd: 60, sp: 85 },
+        bs: { hp: 80, at: 70, df: 125, sa: 120, sd: 80, sp: 85 },
         weightkg: 40,
         abilities: { 0: 'Bulletproof' },
         otherFormes: ['Duraludon-Gmax']
     },
     'Duraludon-Gmax': {
         types: ['Steel', 'Dragon'],
-        bs: { hp: 70, at: 95, df: 115, sa: 110, sd: 60, sp: 85 },
+        bs: { hp: 80, at: 70, df: 125, sa: 120, sd: 80, sp: 85 },
         weightkg: 0,
         abilities: { 0: 'Unaware' },
         baseSpecies: 'Duraludon'
@@ -7976,14 +7976,14 @@ var SS_PATCH = {
     },
     Eiscue: {
         types: ['Ice', 'Ground'],
-        bs: { hp: 75, at: 110, df: 130, sa: 65, sd: 130, sp: 50 },
+        bs: { hp: 75, at: 120, df: 130, sa: 65, sd: 130, sp: 50 },
         weightkg: 89,
         abilities: { 0: 'Ice Face' },
         otherFormes: ['Eiscue-Noice']
     },
     'Eiscue-Noice': {
         types: ['Ice', 'Ground'],
-        bs: { hp: 75, at: 110, df: 90, sa: 65, sd: 90, sp: 130 },
+        bs: { hp: 75, at: 120, df: 90, sa: 65, sd: 90, sp: 130 },
         weightkg: 89,
         abilities: { 0: 'Ice Face' },
         baseSpecies: 'Eiscue'
@@ -7996,7 +7996,7 @@ var SS_PATCH = {
     },
     Eternatus: {
         types: ['Poison', 'Dragon'],
-        bs: { hp: 140, at: 85, df: 95, sa: 145, sd: 95, sp: 130 },
+        bs: { hp: 140, at: 85, df: 100, sa: 145, sd: 100, sp: 120 },
         weightkg: 950,
         abilities: { 0: 'Pressure' },
         gender: 'N',
@@ -8012,7 +8012,7 @@ var SS_PATCH = {
     },
     Falinks: {
         types: ['Fighting'],
-        bs: { hp: 65, at: 115, df: 100, sa: 70, sd: 60, sp: 110 },
+        bs: { hp: 90, at: 115, df: 100, sa: 70, sd: 60, sp: 110 },
         weightkg: 62,
         abilities: { 0: 'Technician' },
         gender: 'N'
@@ -8047,7 +8047,7 @@ var SS_PATCH = {
     },
     'Garbodor-Gmax': {
         types: ['Poison'],
-        bs: { hp: 100, at: 95, df: 95, sa: 60, sd: 85, sp: 75 },
+        bs: { hp: 100, at: 100, df: 100, sa: 60, sd: 100, sp: 75 },
         weightkg: 0,
         abilities: { 0: 'Toxic Debris' },
         baseSpecies: 'Garbodor'
@@ -8185,7 +8185,7 @@ var SS_PATCH = {
     },
     'Lapras-Gmax': {
         types: ['Water', 'Ice'],
-        bs: { hp: 130, at: 85, df: 80, sa: 115, sd: 95, sp: 70 },
+        bs: { hp: 130, at: 85, df: 80, sa: 120, sd: 95, sp: 70 },
         weightkg: 0,
         abilities: { 0: 'Ice Scales' },
         baseSpecies: 'Lapras'
@@ -8209,7 +8209,7 @@ var SS_PATCH = {
     },
     'Machamp-Gmax': {
         types: ['Fighting'],
-        bs: { hp: 90, at: 130, df: 80, sa: 65, sd: 85, sp: 55 },
+        bs: { hp: 110, at: 140, df: 80, sa: 65, sd: 85, sp: 55 },
         weightkg: 0,
         abilities: { 0: 'Scrappy' },
         baseSpecies: 'Machamp'
@@ -8577,7 +8577,7 @@ var SS_PATCH = {
     },
     Stonjourner: {
         types: ['Rock', 'Ground'],
-        bs: { hp: 100, at: 125, df: 135, sa: 20, sd: 20, sp: 80 },
+        bs: { hp: 100, at: 125, df: 135, sa: 20, sd: 20, sp: 95 },
         weightkg: 520,
         abilities: { 0: 'Power Spot' }
     },
@@ -8682,7 +8682,7 @@ var SS_PATCH = {
     },
     'Venusaur-Gmax': {
         types: ['Grass', 'Poison'],
-        bs: { hp: 80, at: 82, df: 83, sa: 100, sd: 100, sp: 80 },
+        bs: { hp: 80, at: 82, df: 90, sa: 113, sd: 115, sp: 80 },
         weightkg: 0,
         abilities: { 0: 'Flower Veil' },
         baseSpecies: 'Venusaur'
@@ -8718,7 +8718,7 @@ var SS_PATCH = {
     },
     Zacian: {
         types: ['Fairy'],
-        bs: { hp: 92, at: 130, df: 115, sa: 80, sd: 115, sp: 138 },
+        bs: { hp: 92, at: 120, df: 115, sa: 80, sd: 115, sp: 138 },
         weightkg: 110,
         abilities: { 0: 'Intrepid Sword' },
         gender: 'N',
@@ -8726,7 +8726,7 @@ var SS_PATCH = {
     },
     'Zacian-Crowned': {
         types: ['Fairy', 'Steel'],
-        bs: { hp: 92, at: 170, df: 115, sa: 80, sd: 115, sp: 148 },
+        bs: { hp: 92, at: 150, df: 120, sa: 90, sd: 120, sp: 128 },
         weightkg: 355,
         abilities: { 0: 'Intrepid Sword' },
         baseSpecies: 'Zacian',
@@ -8734,7 +8734,7 @@ var SS_PATCH = {
     },
     Zamazenta: {
         types: ['Fighting'],
-        bs: { hp: 92, at: 130, df: 115, sa: 80, sd: 115, sp: 138 },
+        bs: { hp: 92, at: 120, df: 115, sa: 80, sd: 115, sp: 138 },
         weightkg: 210,
         abilities: { 0: 'Dauntless Shield' },
         gender: 'N',
@@ -8742,7 +8742,7 @@ var SS_PATCH = {
     },
     'Zamazenta-Crowned': {
         types: ['Fighting', 'Steel'],
-        bs: { hp: 92, at: 130, df: 145, sa: 80, sd: 145, sp: 128 },
+        bs: { hp: 92, at: 120, df: 140, sa: 90, sd: 140, sp: 118 },
         weightkg: 785,
         abilities: { 0: 'Dauntless Shield' },
         baseSpecies: 'Zamazenta',
@@ -9485,7 +9485,7 @@ var SV_PATCH = {
     },
     Koraidon: {
         types: ['Fighting', 'Dragon'],
-        bs: { hp: 100, at: 135, df: 115, sa: 85, sd: 100, sp: 135 },
+        bs: { hp: 100, at: 135, df: 115, sa: 95, sd: 100, sp: 125 },
         weightkg: 303,
         gender: 'N',
         abilities: { 0: 'Orichalcum Pulse' }
@@ -9540,7 +9540,7 @@ var SV_PATCH = {
     },
     Miraidon: {
         types: ['Electric', 'Dragon'],
-        bs: { hp: 100, at: 85, df: 100, sa: 135, sd: 115, sp: 135 },
+        bs: { hp: 100, at: 95, df: 100, sa: 135, sd: 115, sp: 125 },
         weightkg: 240,
         gender: 'N',
         abilities: { 0: 'Hadron Engine' }
@@ -9760,7 +9760,7 @@ var SV_PATCH = {
     },
     Revavroom: {
         types: ['Steel', 'Poison'],
-        bs: { hp: 80, at: 119, df: 110, sa: 54, sd: 77, sp: 100 },
+        bs: { hp: 80, at: 119, df: 110, sa: 54, sd: 97, sp: 100 },
         weightkg: 120,
         abilities: { 0: 'Filter' }
     },
@@ -10044,7 +10044,7 @@ var SV_PATCH = {
     },
     'Wo-Chien': {
         types: ['Dark', 'Poison'],
-        bs: { hp: 85, at: 85, df: 100, sa: 105, sd: 125, sp: 70 },
+        bs: { hp: 85, at: 85, df: 100, sa: 95, sd: 135, sp: 70 },
         weightkg: 74.2,
         gender: 'N',
         abilities: { 0: 'Tablets of Ruin' }
