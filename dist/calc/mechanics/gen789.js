@@ -280,7 +280,8 @@ function calculateSMSSSV(gen, attacker, defender, move, field) {
         (move.named('Dream Eater') &&
             (!(defender.hasStatus('slp') || defender.hasAbility('Comatose')))) ||
         (move.named('Steel Roller') && !field.terrain) ||
-        (move.named('Poltergeist') && (!defender.item || (0, util_2.isQPActive)(defender, field)))) {
+        (move.named('Poltergeist') &&
+            (!defender.item || ((0, util_2.isQPActive)(defender, field) && defender.hasItem('Booster Energy'))))) {
         return result;
     }
     if ((field.hasWeather('Harsh Sunshine') && move.hasType('Water')) ||
@@ -548,7 +549,8 @@ function calculateBasePowerSMSSSV(gen, attacker, defender, move, field, hasAteAb
             break;
         case 'Acrobatics':
             basePower = move.bp * (attacker.hasItem('Flying Gem') ||
-                (!attacker.item || (0, util_2.isQPActive)(attacker, field)) ? 2 : 1);
+                (!attacker.item ||
+                    ((0, util_2.isQPActive)(attacker, field) && attacker.hasItem('Booster Energy'))) ? 2 : 1);
             desc.moveBP = basePower;
             break;
         case 'Assurance':
@@ -699,7 +701,7 @@ function calculateBasePowerSMSSSV(gen, attacker, defender, move, field, hasAteAb
 exports.calculateBasePowerSMSSSV = calculateBasePowerSMSSSV;
 function calculateBPModsSMSSSV(gen, attacker, defender, move, field, desc, basePower, hasAteAbilityTypeChange, turnOrder) {
     var bpMods = [];
-    var resistedKnockOffDamage = (!defender.item || (0, util_2.isQPActive)(defender, field)) ||
+    var resistedKnockOffDamage = (!defender.item || ((0, util_2.isQPActive)(defender, field) && defender.hasItem('Booster Energy'))) ||
         (defender.named('Dialga-Origin') && defender.hasItem('Adamant Crystal')) ||
         (defender.named('Palkia-Origin') && defender.hasItem('Lustrous Globe')) ||
         (defender.name.includes('Giratina-Origin') && defender.item.includes('Griseous')) ||

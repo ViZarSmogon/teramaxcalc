@@ -152,14 +152,16 @@ function getFinalSpeed(gen, pokemon, field, side) {
     else if (isQPActive(pokemon, field) && getQPBoostedStat(pokemon, gen) === 'spe') {
         speedMods.push(6144);
     }
-    if (pokemon.hasItem('Choice Scarf') && !pokemon.hasAbility('Gorilla Tactics')) {
-        speedMods.push(6144);
-    }
-    else if (pokemon.hasItem.apply(pokemon, __spreadArray(['Iron Ball'], __read(EV_ITEMS), false))) {
-        speedMods.push(2048);
-    }
-    else if (pokemon.hasItem('Quick Powder') && pokemon.named('Ditto')) {
-        speedMods.push(8192);
+    if (!(pokemon.hasAbility('Unburden') && pokemon.abilityOn)) {
+        if (pokemon.hasItem('Choice Scarf')) {
+            speedMods.push(6144);
+        }
+        else if (pokemon.hasItem.apply(pokemon, __spreadArray(['Iron Ball'], __read(EV_ITEMS), false))) {
+            speedMods.push(2048);
+        }
+        else if (pokemon.hasItem('Quick Powder') && pokemon.named('Ditto')) {
+            speedMods.push(8192);
+        }
     }
     speed = OF32(pokeRound((speed * chainMods(speedMods, 410, 131172)) / 4096));
     if (pokemon.hasStatus('par') && !pokemon.hasAbility('Quick Feet')) {
