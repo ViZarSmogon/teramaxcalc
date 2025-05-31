@@ -1309,7 +1309,7 @@ function calcStat(poke, StatID) {
 		}
 	}
 	stat.find(".total").text(total);
-	return total;
+	return Math.round(total);
 }
 
 var GENERATION = {
