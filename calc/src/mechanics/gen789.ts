@@ -550,7 +550,7 @@ export function calculateSMSSSV(
   const attackStat =
     move.named('Shell Side Arm') &&
     getShellSideArmCategory(attacker, defender) === 'Physical'
-      ? 'atk'
+      ? 'spa'
       : move.named('Body Press')
         ? 'def'
         : move.category === 'Special'
@@ -1268,7 +1268,7 @@ export function calculateAttackSMSSSV(
   const attackStat =
     move.named('Shell Side Arm') &&
     getShellSideArmCategory(attacker, defender) === 'Physical'
-      ? 'atk'
+      ? 'spa'
       : move.named('Body Press')
         ? 'def'
         : move.category === 'Special'

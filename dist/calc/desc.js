@@ -438,6 +438,10 @@ function getEndOfTurn(gen, attacker, defender, move, field) {
         damage += Math.floor(defender.maxHP() / 16);
         texts.push('Leftovers recovery');
     }
+    else if (defender.hasAbility('Hospitality') && !loseItem && !healBlock) {
+        damage += Math.floor(defender.maxHP() / 16);
+        texts.push('Hospitality recovery');
+    }
     else if (defender.hasItem('Black Sludge') && !loseItem) {
         if (defender.hasType('Poison')) {
             if (!healBlock) {

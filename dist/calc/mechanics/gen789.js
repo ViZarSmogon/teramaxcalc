@@ -388,7 +388,7 @@ function calculateSMSSSV(gen, attacker, defender, move, field) {
     var attack = calculateAttackSMSSSV(gen, attacker, defender, move, field, desc, isCritical);
     var attackStat = move.named('Shell Side Arm') &&
         (0, util_2.getShellSideArmCategory)(attacker, defender) === 'Physical'
-        ? 'atk'
+        ? 'spa'
         : move.named('Body Press')
             ? 'def'
             : move.category === 'Special'
@@ -912,7 +912,7 @@ function calculateAttackSMSSSV(gen, attacker, defender, move, field, desc, isCri
     var attack;
     var attackStat = move.named('Shell Side Arm') &&
         (0, util_2.getShellSideArmCategory)(attacker, defender) === 'Physical'
-        ? 'atk'
+        ? 'spa'
         : move.named('Body Press')
             ? 'def'
             : move.category === 'Special'
