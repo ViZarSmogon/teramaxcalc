@@ -89,14 +89,24 @@ var Pokemon = (function () {
     Pokemon.prototype.maxHP = function (original) {
         if (original === void 0) { original = false; }
         if (!original && this.isDynamaxed && this.species.baseStats.hp !== 1) {
-            return Math.floor(this.rawStats.hp * (150 / 100));
+            if (this.item === 'Wishing Stone') {
+                return Math.floor(this.rawStats.hp * (150 / 100));
+            }
+            else {
+                return Math.floor(this.rawStats.hp * (200 / 100));
+            }
         }
         return this.rawStats.hp;
     };
     Pokemon.prototype.curHP = function (original) {
         if (original === void 0) { original = false; }
         if (!original && this.isDynamaxed && this.species.baseStats.hp !== 1) {
-            return Math.ceil(this.originalCurHP * (150 / 100));
+            if (this.item === 'Wishing Stone') {
+                return Math.floor(this.originalCurHP * (150 / 100));
+            }
+            else {
+                return Math.floor(this.originalCurHP * (200 / 100));
+            }
         }
         return this.originalCurHP;
     };
