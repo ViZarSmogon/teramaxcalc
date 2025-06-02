@@ -3053,7 +3053,7 @@ var SS_PATCH = {
         maxPower: 1
     },
     'G-Max Chi Strike': {
-        bp: 120,
+        bp: 140,
         type: 'Fighting',
         category: 'Physical',
         isMax: true,
@@ -3067,7 +3067,7 @@ var SS_PATCH = {
         maxPower: 1
     },
     'G-Max Depletion': {
-        bp: 110,
+        bp: 120,
         type: 'Dragon',
         category: 'Physical',
         isMax: true,
