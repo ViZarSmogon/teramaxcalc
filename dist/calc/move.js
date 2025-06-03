@@ -15,9 +15,6 @@ var Move = (function () {
             var maxMoveName_1 = getMaxMoveName(data.type, data.name, options.species, !!(data.category === 'Status'), options.ability);
             var maxMove_1 = gen.moves.get((0, util_1.toID)(maxMoveName_1));
             var maxPower = function () {
-                if (['G-Max Drum Solo', 'G-Max Fire Ball', 'G-Max Hydrosnipe'].includes(maxMoveName_1)) {
-                    return 160;
-                }
                 if (maxMove_1.basePower === 10 || maxMoveName_1 === 'Max Flare') {
                     return data.maxMove.basePower;
                 }

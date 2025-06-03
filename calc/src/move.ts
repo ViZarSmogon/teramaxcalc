@@ -69,9 +69,6 @@ export class Move implements State.Move {
       );
       const maxMove = gen.moves.get(toID(maxMoveName));
       const maxPower = () => {
-        if (['G-Max Drum Solo', 'G-Max Fire Ball', 'G-Max Hydrosnipe'].includes(maxMoveName)) {
-          return 160;
-        }
         // TODO: checking basePower === 10 is fragile (what if the maxMove's basePower is
         // overridden?) and also fails for Max Flare, which is strangely 100 BP in the game data
         if (maxMove!.basePower === 10 || maxMoveName === 'Max Flare') {
