@@ -3644,7 +3644,7 @@ const DPP_PATCH: {[name: string]: DeepPartial<SpeciesData>} = {
   },
   Staraptor: {
     types: ['Fighting', 'Flying'],
-    bs: {hp: 85, at: 109, df: 81, sa: 50, sd: 50, sp: 100},
+    bs: {hp: 100, at: 117, df: 81, sa: 50, sd: 72, sp: 100},
     weightkg: 24.9,
     abilities: {0: 'Intimidate'},
   },
@@ -8144,7 +8144,7 @@ const SS_PATCH: {[name: string]: DeepPartial<SpeciesData>} = {
     types: ['Water'],
     bs: {hp: 70, at: 90, df: 85, sa: 125, sd: 65, sp: 110},
     weightkg: 0,
-    abilities: {0: 'Stakeout'},
+    abilities: {0: 'Analytic'},
     baseSpecies: 'Inteleon',
   },
   'Kingler-Gmax': {
@@ -9558,7 +9558,7 @@ const SV_PATCH: {[name: string]: DeepPartial<SpeciesData>} = {
   Ogerpon: {
     types: ['Grass'],
     bs: {hp: 80, at: 110, df: 84, sa: 50, sd: 96, sp: 130},
-    abilities: {0: 'Defiant'},
+    abilities: {0: 'Technician'},
     weightkg: 39.8,
     otherFormes: [
       'Ogerpon-Cornerstone', 'Ogerpon-Cornerstone-Tera',
@@ -9569,15 +9569,15 @@ const SV_PATCH: {[name: string]: DeepPartial<SpeciesData>} = {
   },
   'Ogerpon-Wellspring': {
     types: ['Grass', 'Water'],
-    bs: {hp: 80, at: 120, df: 94, sa: 50, sd: 101, sp: 105},
+    bs: {hp: 80, at: 110, df: 94, sa: 55, sd: 111, sp: 100},
     abilities: {0: 'Water Absorb'},
     weightkg: 39.8,
     baseSpecies: 'Ogerpon',
   },
   'Ogerpon-Hearthflame': {
     types: ['Grass', 'Fire'],
-    bs: {hp: 80, at: 95, df: 80, sa: 105, sd: 90, sp: 110},
-    abilities: {0: 'Mold Breaker'},
+    bs: {hp: 80, at: 85, df: 80, sa: 115, sd: 80, sp: 110},
+    abilities: {0: 'Flash Fire'},
     weightkg: 39.8,
     baseSpecies: 'Ogerpon',
   },
@@ -9597,14 +9597,14 @@ const SV_PATCH: {[name: string]: DeepPartial<SpeciesData>} = {
   },
   'Ogerpon-Wellspring-Tera': {
     types: ['Grass', 'Water'],
-    bs: {hp: 80, at: 120, df: 94, sa: 50, sd: 101, sp: 105},
+    bs: {hp: 80, at: 110, df: 94, sa: 55, sd: 111, sp: 100},
     abilities: {0: 'Embody Aspect (Wellspring)'},
     weightkg: 39.8,
     baseSpecies: 'Ogerpon',
   },
   'Ogerpon-Hearthflame-Tera': {
     types: ['Grass', 'Fire'],
-    bs: {hp: 80, at: 95, df: 80, sa: 105, sd: 90, sp: 110},
+    bs: {hp: 80, at: 85, df: 80, sa: 115, sd: 80, sp: 110},
     abilities: {0: 'Embody Aspect (Hearthflame)'},
     weightkg: 39.8,
     baseSpecies: 'Ogerpon',

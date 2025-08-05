@@ -308,7 +308,7 @@ function checkEmbody(source, gen) {
             source.boosts.def = Math.min(6, source.boosts.def + 1);
             break;
         case 'Embody Aspect (Hearthflame)':
-            source.boosts.atk = Math.min(6, source.boosts.atk + 1);
+            source.boosts.spa = Math.min(6, source.boosts.spa + 1);
             break;
         case 'Embody Aspect (Teal)':
             source.boosts.spe = Math.min(6, source.boosts.spe + 1);

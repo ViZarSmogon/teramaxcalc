@@ -122,6 +122,9 @@ export function calculateSMSSSV(
       (move.named('Tera Blast') && attacker.teraType) || (move.named('G-Max Stun Shock') && attacker.named('Toxtricity-Gmax'))) {
     move.category = attacker.stats.atk > attacker.stats.spa ? 'Physical' : 'Special';
   }
+  if (move.named('Ivy Cudgel') && (attacker.named('Ogerpon-Hearthflame') || attacker.named('Ogerpon-Hearthflame-Tera'))) {
+    move.category = 'Special';
+  }
 
   const result = new Result(gen, attacker, defender, move, field, 0, desc);
 
