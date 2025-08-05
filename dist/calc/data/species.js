@@ -3680,7 +3680,7 @@ var DPP_PATCH = {
     },
     Staraptor: {
         types: ['Fighting', 'Flying'],
-        bs: { hp: 100, at: 117, df: 81, sa: 50, sd: 72, sp: 100 },
+        bs: { hp: 100, at: 117, df: 81, sa: 50, sd: 82, sp: 100 },
         weightkg: 24.9,
         abilities: { 0: 'Intimidate' }
     },
