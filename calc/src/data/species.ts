@@ -9797,7 +9797,7 @@ const SV_PATCH: {[name: string]: DeepPartial<SpeciesData>} = {
   },
   'Sinistcha': {
     types: ['Grass', 'Ghost'],
-    bs: {hp: 71, at: 60, df: 120, sa: 116, sd: 85, sp: 76},
+    bs: {hp: 71, at: 60, df: 110, sa: 116, sd: 85, sp: 76},
     weightkg: 2.2,
     abilities: {0: 'Hospitality'},
     otherFormes: ['Sinistcha-Masterpiece'],
@@ -9805,7 +9805,7 @@ const SV_PATCH: {[name: string]: DeepPartial<SpeciesData>} = {
   },
   'Sinistcha-Masterpiece': {
     types: ['Grass', 'Ghost'],
-    bs: {hp: 71, at: 60, df: 120, sa: 116, sd: 85, sp: 76},
+    bs: {hp: 71, at: 60, df: 110, sa: 116, sd: 85, sp: 76},
     weightkg: 2.2,
     abilities: {0: 'Hospitality'},
     gender: 'N',
