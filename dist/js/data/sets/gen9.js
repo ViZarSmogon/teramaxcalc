@@ -3,6 +3,7 @@ var SETDEX_SV = {
     "LC Sun Sweeper": {"level":5,"ability":"Chlorophyll","item":"Eviolite","nature":"Timid","teraType":"Fire","ivs":{"at":0},"evs":{"df":44,"sa":236,"sp":156},"moves":["Growth","Sleep Powder","Giga Drain","Weather Ball"]}
   },
   "Venusaur": {
+    "TeraMax Gigantamax": {"ability":"Chlorophyll","item":"Wishing Stone","nature":"Modest","teraType":"Grass","evs":{"hp":8,"df":92,"sa":252,"sd":140,"sp":16},"moves":["Frenzy Plant","Leaf Storm","Earth Power","Sludge Bomb"]},
     "OU Sun Sweeper": {"ability":"Chlorophyll","item":"Life Orb","nature":"Timid","teraType":"Fire","evs":{"df":4,"sa":252,"sp":252},"moves":["Growth","Giga Drain","Weather Ball","Sludge Bomb"]},
     "RU Sun Sweeper": {"ability":"Chlorophyll","item":"Life Orb","nature":"Timid","teraType":"Fire","ivs":{"at":0},"evs":{"df":4,"sa":252,"sp":252},"moves":["Growth","Giga Drain","Sludge Bomb","Weather Ball"]},
     "PU Offensive": {"ability":"Overgrow","item":"Heavy-Duty Boots","nature":"Timid","teraType":"Ground","ivs":{"at":0},"evs":{"df":4,"sa":252,"sp":252},"moves":["Leaf Storm","Sludge Bomb","Earth Power","Synthesis"]},
@@ -23,6 +24,9 @@ var SETDEX_SV = {
     "National Dex UU Tank": {"ability":"Thick Fat","item":"Venusaurite","nature":"Modest","ivs":{"at":0},"evs":{"hp":252,"sa":152,"sp":104},"moves":["Sludge Bomb","Knock Off","Earth Power","Synthesis"]},
     "National Dex Monotype Physically Defensive (Grass)": {"ability":"Thick Fat","item":"Venusaurite","nature":"Bold","evs":{"hp":248,"df":244,"sp":16},"moves":["Sludge Bomb","Synthesis","Hidden Power Fire","Leech Seed"]},
     "National Dex Monotype Physically Defensive (Poison)": {"ability":"Thick Fat","item":"Venusaurite","nature":"Bold","ivs":{"at":0},"evs":{"hp":248,"df":244,"sp":16},"moves":["Giga Drain","Hidden Power Fire","Leech Seed","Synthesis"]}
+  },
+  "Venusaur-Gmax": {
+    "TeraMax Gigantamax": {"ability":"Chlorophyll","item":"Wishing Stone","nature":"Modest","teraType":"Grass","evs":{"hp":8,"df":92,"sa":252,"sd":140,"sp":16},"moves":["Frenzy Plant","Leaf Storm","Earth Power","Sludge Bomb"]}
   },
   "Charmander": {
     "LC Sun Wallbreaker": {"level":5,"ability":"Solar Power","item":"Choice Scarf","nature":"Timid","teraType":"Fire","evs":{"hp":44,"df":12,"sa":196,"sp":236},"moves":["Weather Ball","Fire Blast","Overheat","Sleep Talk"]}
@@ -3401,7 +3405,7 @@ var SETDEX_SV = {
     "ZU Coil": {"ability":"Shed Skin","item":"Leftovers","nature":"Jolly","teraType":"Dragon","evs":{"hp":252,"sd":4,"sp":252},"moves":["Coil","Earthquake","Scale Shot","Rest"]}
   },
   "Sandaconda-Gmax": {
-    "TeraMax Gigantamax": {"ability":"Sand Spit","item":"Wishing Stone","nature":"Adamant","teraType":"Ground","evs":{"at":252,"sd":4,"sp":252},"moves":["Sand Tomb","Stone Edge","Body Press","Giga Impact"]}
+    "TeraMax Gigantamax": {"ability":"Sand Rush","item":"Wishing Stone","nature":"Adamant","teraType":"Ground","evs":{"at":252,"sd":4,"sp":252},"moves":["Sand Tomb","Stone Edge","Body Press","Giga Impact"]}
   },
   "Cramorant": {
     "PU Defog": {"ability":"Gulp Missile","item":"Heavy-Duty Boots","nature":"Bold","teraType":"Steel","evs":{"hp":248,"df":188,"sd":56,"sp":16},"moves":["Defog","Roost","Surf","Brave Bird"]}
