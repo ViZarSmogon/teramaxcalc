@@ -306,7 +306,11 @@ var SETDEX_SV = {
     "ZU Choiced": {"ability":"Levitate","item":"Choice Scarf","nature":"Timid","teraType":"Ghost","ivs":{"at":0},"evs":{"sa":252,"sd":4,"sp":252},"moves":["Shadow Ball","Sludge Bomb","Psychic","Trick"]}
   },
   "Gengar": {
-    "RU Nasty Plot": {"ability":"Cursed Body","item":"Air Balloon","nature":"Timid","teraType":"Ghost","evs":{"df":4,"sa":252,"sp":252},"moves":["Nasty Plot","Shadow Ball","Sludge Wave","Focus Blast"]},
+    //"TeraMax Nasty Plot": {"ability":"Levitate","item":"Leftovers","nature":"Timid","teraType":"Fighting","evs":{"df":4,"sa":252,"sp":252},"moves":["Nasty Plot","Shadow Ball","Sludge Wave","Aura Sphere"]},
+    //"TeraMax Hex": {"ability":"Levitate","item":"Heavy-Duty Boots","nature":"Timid","teraType":"Fairy","evs":{"df":4,"sa":252,"sp":252},"moves":["Hex","Sludge Bomb","Dazzling Gleam","Will-O-Wisp"]},
+    //"TeraMax Choice Scarf": {"ability":"Levitate","item":"Choice Scarf","nature":"Timid","teraType":"Ghost","evs":{"sa":252,"sd":4,"sp":252},"moves":["Shadow Ball","Sludge Wave","Trick","Chilly Reception"]},
+	"TeraMax Gigantamax": {"ability":"Levitate","item":"Wishing Stone","nature":"Timid","teraType":"Ghost","ivs":{"at":0},"evs":{"sa":252,"sd":4,"sp":252},"moves":["Shadow Ball","Sludge Wave","Focus Blast","Thunder"]}
+	"RU Nasty Plot": {"ability":"Cursed Body","item":"Air Balloon","nature":"Timid","teraType":"Ghost","evs":{"df":4,"sa":252,"sp":252},"moves":["Nasty Plot","Shadow Ball","Sludge Wave","Focus Blast"]},
     "RU Hex": {"ability":"Cursed Body","item":"Heavy-Duty Boots","nature":"Timid","teraType":"Fairy","evs":{"df":4,"sa":252,"sp":252},"moves":["Hex","Sludge Bomb","Dazzling Gleam","Will-O-Wisp"]},
     "RU Choice Scarf": {"ability":"Cursed Body","item":"Choice Scarf","nature":"Timid","teraType":"Ghost","evs":{"sa":252,"sd":4,"sp":252},"moves":["Shadow Ball","Sludge Wave","Trick","Toxic Spikes"]},
     "BSS Reg I Disruptor": {"level":50,"ability":"Cursed Body","item":"Focus Sash","nature":"Timid","teraType":"Normal","evs":{"sa":252,"sd":4,"sp":252},"moves":["Shadow Ball","Encore","Sludge Bomb","Destiny Bond"]},
@@ -318,6 +322,9 @@ var SETDEX_SV = {
     "Almost Any Ability Sheer Force": {"ability":"Sheer Force","item":"Life Orb","nature":"Timid","ivs":{"at":0},"evs":{"sa":252,"sd":4,"sp":252},"moves":["Shadow Ball","Focus Blast","Nasty Plot","Sludge Wave"]},
     "Almost Any Ability Normalize": {"ability":"Normalize","item":"Black Sludge","nature":"Timid","ivs":{"at":0},"evs":{"sa":252,"sd":4,"sp":252},"moves":["Skill Swap","Mean Look","Shadow Ball","Toxic Spikes"]},
     "UU Showdown Usage": {"ability":"Cursed Body","item":"Focus Sash","nature":"Timid","teraType":"Ghost","evs":{"sa":252,"sd":4,"sp":252},"moves":["Shadow Ball","Sludge Wave","Focus Blast","Nasty Plot"]}
+  },
+  "Gengar-Gmax": {
+    "TeraMax Gigantamax": {"ability":"Corrosion","item":"Wishing Stone","nature":"Timid","teraType":"Ghost","ivs":{"at":0},"evs":{"sa":252,"sd":4,"sp":252},"moves":["Shadow Ball","Sludge Wave","Focus Blast","Thunder"]}
   },
   "Electrode-Hisui": {
     "PU Pivot": {"ability":"Soundproof","item":"Heavy-Duty Boots","nature":"Timid","teraType":"Fire","ivs":{"at":0},"evs":{"df":4,"sa":252,"sp":252},"moves":["Volt Switch","Thunderbolt","Leaf Storm","Taunt"]},
@@ -3386,6 +3393,7 @@ var SETDEX_SV = {
     "ZU Special Wall": {"ability":"Thick Fat","item":"Heavy-Duty Boots","nature":"Sassy","teraType":"Steel","evs":{"hp":252,"df":4,"sd":252},"moves":["Apple Acid","Dragon Pulse","Dragon Tail","Recover"]}
   },
   "Sandaconda": {
+    "TeraMax Defensive Wall": {"ability":"Intimidate","item":"Rocky Helmet","nature":"Impish","teraType":"Water","evs":{"hp":252,"df":168,"sp":88},"moves":["Earthquake","U-turn","Stealth Rock","Glare"]},
     "NU Defensive Wall": {"ability":"Shed Skin","item":"Rocky Helmet","nature":"Impish","teraType":"Water","evs":{"hp":252,"df":168,"sp":88},"moves":["Earthquake","Stone Edge","Stealth Rock","Rest"]},
     "PU Stealth Rock": {"ability":"Shed Skin","item":"Rocky Helmet","nature":"Impish","teraType":"Ghost","evs":{"hp":252,"df":252,"sd":4},"moves":["Stealth Rock","Earthquake","Glare","Rest"]},
     "ZU Physical Wall": {"ability":"Shed Skin","item":"Rocky Helmet","nature":"Impish","teraType":"Poison","evs":{"hp":252,"df":252,"sd":4},"moves":["Stealth Rock","Earthquake","Rock Blast","Rest"]},
@@ -3507,7 +3515,11 @@ var SETDEX_SV = {
     "ZU Choice Band": {"ability":"Hunger Switch","item":"Choice Band","nature":"Jolly","teraType":"Dark","evs":{"at":252,"sd":4,"sp":252},"moves":["Aura Wheel","Knock Off","Parting Shot","Rapid Spin"]}
   },
   "Copperajah": {
+    "TeraMax Gigantamax": {"ability":"Sheer Force","item":"Wishing Stone","nature":"Adamant","teraType":"Steel","evs":{"atk":228,"df":132,"sd":72,"sp":76},"moves":["Heavy Slam","Earthquake","Power Whip","Superpower"]},
     "NU Stealth Rock": {"ability":"Sheer Force","item":"Leftovers","nature":"Careful","teraType":"Dragon","evs":{"hp":252,"sd":228,"sp":28},"moves":["Stealth Rock","Iron Head","Knock Off","Whirlwind"]}
+  },
+  "Copperajah-Gmax": {
+    "TeraMax Gigantamax": {"ability":"Bulletproof","item":"Wishing Stone","nature":"Adamant","teraType":"Steel","evs":{"atk":228,"df":132,"sd":72,"sp":76},"moves":["Heavy Slam","Earthquake","Power Whip","Superpower"]}
   },
   "Arctozolt": {
     "National Dex RU Slush Rush": {"ability":"Slush Rush","item":"Heavy-Duty Boots","nature":"Naive","evs":{"at":252,"sa":4,"sp":252},"moves":["Bolt Beak","Blizzard","Low Kick","Substitute"]},
@@ -5224,6 +5236,7 @@ var SETDEX_SV = {
   },
   "Dracovish": {
     "TeraMax Choice Band": {"ability":"Regenerator","item":"Choice Band","nature":"Adamant","teraType":"Water","evs":{"at":252,"sd":4,"sp":252},"moves":["Fishious Rend","Earthquake","Ice Spinner","Outrage"]},
+    "TeraMax Sand Rush": {"ability":"Sand Rush","item":"Choice Band","nature":"Adamant","teraType":"Water","evs":{"at":252,"sd":4,"sp":252},"moves":["Fishious Rend","Earthquake","Ice Spinner","Outrage"]},
     "National Dex Doubles Showdown Usage": {"ability":"Strong Jaw","item":"Choice Scarf","nature":"Adamant","teraType":"Water","evs":{"at":252,"sd":4,"sp":252},"moves":["Fishious Rend","Psychic Fangs","Ice Fang","Crunch"]}
   },
   "Camerupt-Mega": {
