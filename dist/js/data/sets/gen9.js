@@ -3523,11 +3523,11 @@ var SETDEX_SV = {
     "ZU Choice Band": {"ability":"Hunger Switch","item":"Choice Band","nature":"Jolly","teraType":"Dark","evs":{"at":252,"sd":4,"sp":252},"moves":["Aura Wheel","Knock Off","Parting Shot","Rapid Spin"]}
   },
   "Copperajah": {
-    "TeraMax Gigantamax": {"ability":"Sheer Force","item":"Wishing Stone","nature":"Adamant","teraType":"Steel","evs":{"atk":228,"df":132,"sd":72,"sp":76},"moves":["Heavy Slam","Earthquake","Power Whip","Superpower"]},
+    "TeraMax Gigantamax": {"ability":"Sheer Force","item":"Wishing Stone","nature":"Adamant","teraType":"Steel","evs":{"at":228,"df":132,"sd":72,"sp":76},"moves":["Heavy Slam","Earthquake","Power Whip","Superpower"]},
     "NU Stealth Rock": {"ability":"Sheer Force","item":"Leftovers","nature":"Careful","teraType":"Dragon","evs":{"hp":252,"sd":228,"sp":28},"moves":["Stealth Rock","Iron Head","Knock Off","Whirlwind"]}
   },
   "Copperajah-Gmax": {
-    "TeraMax Gigantamax": {"ability":"Bulletproof","item":"Wishing Stone","nature":"Adamant","teraType":"Steel","evs":{"atk":228,"df":132,"sd":72,"sp":76},"moves":["Heavy Slam","Earthquake","Power Whip","Superpower"]}
+    "TeraMax Gigantamax": {"ability":"Bulletproof","item":"Wishing Stone","nature":"Adamant","teraType":"Steel","evs":{"at":228,"df":132,"sd":72,"sp":76},"moves":["Heavy Slam","Earthquake","Power Whip","Superpower"]}
   },
   "Arctozolt": {
     "National Dex RU Slush Rush": {"ability":"Slush Rush","item":"Heavy-Duty Boots","nature":"Naive","evs":{"at":252,"sa":4,"sp":252},"moves":["Bolt Beak","Blizzard","Low Kick","Substitute"]},
@@ -5141,7 +5141,7 @@ var SETDEX_SV = {
     "Balanced Hackmons Showdown Usage": {"ability":"Good as Gold","item":"Focus Sash","nature":"Adamant","evs":{"hp":252,"at":252,"df":252,"sd":252,"sp":248},"moves":["Sunsteel Strike","Thunderous Kick","Tidy Up","Counter"]}
   },
   "Togekiss": {
-    "TeraMax Physically Defensive": {"ability":"Thick Fat","item":"Heavy-Duty Boots","nature":"Bold","teraType":"Ground","evs":{"hp":252,"def":240,"sp":16},"moves":["Moonblast","Roost","Thunder Wave","Flamethrower"]},
+    "TeraMax Physically Defensive": {"ability":"Thick Fat","item":"Heavy-Duty Boots","nature":"Bold","teraType":"Ground","evs":{"hp":252,"df":240,"sp":16},"moves":["Moonblast","Roost","Thunder Wave","Flamethrower"]},
     "TeraMax Dynamax Sweeper": {"ability":"Thick Fat","nature":"Timid","teraType":"Fairy","evs":{"sa":252,"sd":4,"sp":252},"moves":["Moonblast","Hurricane","Nasty Plot","Fire Blast"]},
     "TeraMax ParaFlinch": {"ability":"Serene Grace","item":"Leftovers","nature":"Timid","teraType":"Steel","evs":{"sa":252,"sd":4,"sp":252},"moves":["Moonblast","Roost","Thunder Wave","Air Slash"]},
     "TeraMax Choice Specs": {"ability":"Thick Fat","item":"Choice Specs","nature":"Timid","teraType":"Ground","evs":{"sa":252,"sd":4,"sp":252},"moves":["Moonblast","Hurricane","Trick","Fire Blast"]},
