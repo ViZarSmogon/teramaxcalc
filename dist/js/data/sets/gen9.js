@@ -26,7 +26,7 @@ var SETDEX_SV = {
     "National Dex Monotype Physically Defensive (Poison)": {"ability":"Thick Fat","item":"Venusaurite","nature":"Bold","ivs":{"at":0},"evs":{"hp":248,"df":244,"sp":16},"moves":["Giga Drain","Hidden Power Fire","Leech Seed","Synthesis"]}
   },
   "Venusaur-Gmax": {
-    "TeraMax Gigantamax": {"ability":"Chlorophyll","item":"Wishing Stone","nature":"Modest","teraType":"Grass","evs":{"hp":8,"df":92,"sa":252,"sd":140,"sp":16},"moves":["Frenzy Plant","Leaf Storm","Earth Power","Sludge Bomb"]}
+    "TeraMax Gigantamax": {"ability":"Flower Veil","item":"Wishing Stone","nature":"Modest","teraType":"Grass","evs":{"hp":8,"df":92,"sa":252,"sd":140,"sp":16},"moves":["Frenzy Plant","Leaf Storm","Earth Power","Sludge Bomb"]}
   },
   "Charmander": {
     "LC Sun Wallbreaker": {"level":5,"ability":"Solar Power","item":"Choice Scarf","nature":"Timid","teraType":"Fire","evs":{"hp":44,"df":12,"sa":196,"sp":236},"moves":["Weather Ball","Fire Blast","Overheat","Sleep Talk"]}
