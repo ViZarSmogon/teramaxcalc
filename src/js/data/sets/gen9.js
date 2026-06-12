@@ -541,6 +541,9 @@ var SETDEX_SV = {
     "Almost Any Ability Showdown Usage": {"ability":"Serene Grace","item":"Leftovers","nature":"Timid","evs":{"df":4,"sa":252,"sp":252},"moves":["Fiery Wrath","Nasty Plot","Agility","Air Slash"]}
   },
   "Dragonite": {
+    "TeraMax Dragon Dance": {"ability":"Multiscale","item":"Heavy-Duty Boots","nature":"Adamant","teraType":"Normal","evs":{"at":252,"df":4,"sp":252},"moves":["Dragon Dance","Earthquake","Extreme Speed","Ice Spinner"]},
+    "TeraMax Bulky Attacker": {"ability":"Multiscale","item":"Heavy-Duty Boots","nature":"Adamant","teraType":"Normal","evs":{"hp":252,"at":240,"sp":16},"moves":["Dragon Tail","Extreme Speed","Earthquake","Roost"]},
+    "TeraMax Choice Band": {"ability":"Multiscale","item":"Choice Band","nature":"Adamant","teraType":"Normal","evs":{"at":252,"df":4,"sp":252},"moves":["Outrage","Extreme Speed","Ice Spinner","Fire Punch"]},
     "OU Dragon Dance": {"ability":"Multiscale","item":"Heavy-Duty Boots","nature":"Adamant","teraType":"Normal","evs":{"at":252,"df":4,"sp":252},"moves":["Dragon Dance","Earthquake","Extreme Speed","Ice Spinner"]},
     "OU Bulky Attacker": {"ability":"Multiscale","item":"Heavy-Duty Boots","nature":"Adamant","teraType":"Normal","evs":{"hp":252,"at":240,"sp":16},"moves":["Dragon Tail","Extreme Speed","Earthquake","Roost"]},
     "OU Choice Band": {"ability":"Multiscale","item":"Choice Band","nature":"Adamant","teraType":"Normal","evs":{"at":252,"df":4,"sp":252},"moves":["Outrage","Extreme Speed","Ice Spinner","Fire Punch"]},
@@ -3320,6 +3323,8 @@ var SETDEX_SV = {
     "CAP Showdown Usage": {"ability":"Grassy Surge","item":"Choice Band","nature":"Adamant","teraType":"Grass","evs":{"at":252,"df":4,"sp":252},"moves":["Grassy Glide","Knock Off","Wood Hammer","U-turn"]}
   },
   "Cinderace": {
+    "TeraMax Pivot": {"ability":"Blaze","item":"Heavy-Duty Boots","nature":"Jolly","teraType":"Fire","evs":{"hp":224,"at":32,"sp":252},"moves":["Pyro Ball","U-turn","Court Change","Will-O-Wisp"]},
+    "TeraMax Gigantamax": {"ability":"Blaze","item":"Wishing Stone","nature":"Jolly","teraType":"Fire","evs":{"at":252,"sd":4,"sp":252},"moves":["Pyro Ball","High Jump Kick","Gunk Shot","Flare Blitz"]},
     "OU Pivot": {"ability":"Blaze","item":"Heavy-Duty Boots","nature":"Jolly","teraType":"Fire","evs":{"hp":224,"at":32,"sp":252},"moves":["Pyro Ball","U-turn","Court Change","Will-O-Wisp"]},
     "Monotype Choice Scarf": {"ability":"Libero","item":"Choice Scarf","nature":"Jolly","evs":{"at":252,"df":4,"sp":252},"moves":["Pyro Ball","Gunk Shot","High Jump Kick","U-turn"]},
     "Monotype Offensive Utility": {"ability":"Libero","item":"Heavy-Duty Boots","nature":"Jolly","evs":{"at":252,"sd":4,"sp":252},"moves":["Pyro Ball","High Jump Kick","Sucker Punch","Court Change"]},
@@ -3332,6 +3337,9 @@ var SETDEX_SV = {
     "Almost Any Ability Choice Band": {"ability":"Desolate Land","item":"Choice Band","nature":"Jolly","evs":{"at":252,"sd":4,"sp":252},"moves":["Pyro Ball","High Jump Kick","U-turn","Gunk Shot"]},
     "Almost Any Ability Magic Guard": {"ability":"Magic Guard","item":"Life Orb","nature":"Jolly","evs":{"at":252,"df":4,"sp":252},"moves":["Flare Blitz","High Jump Kick","Will-O-Wisp","Swords Dance"]},
     "CAP Showdown Usage": {"ability":"Libero","item":"Heavy-Duty Boots","nature":"Jolly","teraType":"Fire","evs":{"at":252,"df":4,"sp":252},"moves":["Pyro Ball","Court Change","U-turn","Sucker Punch"]}
+  },
+  "Cinderace-Gmax": {
+    "TeraMax Gigantamax": {"ability":"Magic Guard","item":"Wishing Stone","nature":"Jolly","teraType":"Fire","evs":{"at":252,"sd":4,"sp":252},"moves":["Pyro Ball","High Jump Kick","Gunk Shot","Flare Blitz"]}
   },
   "Inteleon": {
     "NU Choice Specs": {"ability":"Torrent","item":"Choice Specs","nature":"Timid","teraType":"Water","evs":{"sa":252,"sd":4,"sp":252},"moves":["Hydro Pump","Ice Beam","Dark Pulse","U-turn"]},
@@ -4693,6 +4701,8 @@ var SETDEX_SV = {
     "Almost Any Ability Showdown Usage": {"ability":"Levitate","item":"Leftovers","nature":"Calm","evs":{"hp":252,"sa":4,"sd":252},"moves":["Roost","U-turn","Toxic","Moonblast"]}
   },
   "Ogerpon": {
+    "TeraMax Choice Band": {"ability":"Defiant","item":"Choice Band","nature":"Jolly","teraType":"Grass","evs":{"at":252,"df":4,"sp":252},"moves":["Ivy Cudgel","Knock Off","U-turn","Close Combat"]},
+    "TeraMax Loaded Dice": {"ability":"Technician","item":"Loaded Dice","nature":"Jolly","teraType":"Grass","evs":{"at":252,"df":4,"sp":252},"moves":["Bullet Seed","Bone Rush","Rock Blast","Swords Dance"]},
     "OU Pivot": {"ability":"Defiant","item":"Heavy-Duty Boots","nature":"Jolly","teraType":"Grass","evs":{"at":252,"df":4,"sp":252},"moves":["Ivy Cudgel","Knock Off","U-turn","Encore"]},
     "OU Choice Band": {"ability":"Defiant","item":"Choice Band","nature":"Jolly","teraType":"Grass","evs":{"at":252,"df":4,"sp":252},"moves":["Ivy Cudgel","Knock Off","U-turn","Low Kick"]},
     "UU Pivot": {"ability":"Defiant","item":"Heavy-Duty Boots","nature":"Jolly","teraType":"Grass","evs":{"at":252,"sd":4,"sp":252},"moves":["Ivy Cudgel","Knock Off","U-turn","Stomping Tantrum"]},
@@ -4701,6 +4711,9 @@ var SETDEX_SV = {
     "CAP Showdown Usage": {"ability":"Defiant","item":"Heavy-Duty Boots","nature":"Jolly","teraType":"Grass","evs":{"at":252,"sd":4,"sp":252},"moves":["Ivy Cudgel","Knock Off","Encore","U-turn"]}
   },
   "Ogerpon-Wellspring": {
+    "TeraMax Offensive Swords Dance": {"ability":"Flower Veil","item":"Wellspring Mask","nature":"Jolly","teraType":"Water","evs":{"at":252,"sd":4,"sp":252},"moves":["Swords Dance","Ivy Cudgel","Power Whip","Knock Off"]},
+    "TeraMax Bulky Swords Dance": {"ability":"Flower Veil","item":"Wellspring Mask","nature":"Adamant","teraType":"Water","evs":{"hp":252,"at":120,"sp":136},"moves":["Swords Dance","Ivy Cudgel","Horn Leech","Taunt"]},
+    "TeraMax Pivot": {"ability":"Flower Veil","item":"Wellspring Mask","nature":"Adamant","teraType":"Water","evs":{"at":252,"df":4,"sp":252},"moves":["Ivy Cudgel","Power Whip","Knock Off","U-turn"]},
     "OU Swords Dance": {"ability":"Water Absorb","item":"Wellspring Mask","nature":"Jolly","teraType":"Water","evs":{"at":252,"sd":4,"sp":252},"moves":["Swords Dance","Ivy Cudgel","Power Whip","Play Rough"]},
     "OU All-Out Attacker": {"ability":"Water Absorb","item":"Wellspring Mask","nature":"Adamant","teraType":"Water","evs":{"at":252,"df":4,"sp":252},"moves":["Ivy Cudgel","Power Whip","Knock Off","Play Rough"]},
     "OU Offensive Pivot": {"ability":"Water Absorb","item":"Wellspring Mask","nature":"Jolly","teraType":"Water","evs":{"at":252,"sd":4,"sp":252},"moves":["Ivy Cudgel","Horn Leech","U-turn","Knock Off"]},
@@ -4724,6 +4737,7 @@ var SETDEX_SV = {
     "CAP Showdown Usage": {"ability":"Water Absorb","item":"Wellspring Mask","nature":"Jolly","teraType":"Water","evs":{"at":252,"sd":4,"sp":252},"moves":["Ivy Cudgel","Swords Dance","Power Whip","Horn Leech"]}
   },
   "Ogerpon-Hearthflame": {
+    "TeraMax Nasty Plot": {"ability":"Flash Fire","item":"Hearthflame Mask","nature":"Timid","teraType":"Fire","evs":{"sa":252,"sd":4,"sp":252},"moves":["Nasty Plot","Fire Blast","Giga Drain","Focus Blast"]},
     "Ubers Swords Dance": {"ability":"Mold Breaker","item":"Hearthflame Mask","nature":"Jolly","teraType":"Fire","evs":{"at":252,"sd":4,"sp":252},"moves":["Swords Dance","Ivy Cudgel","Power Whip","Trailblaze"]},
     "Doubles OU Cudgel Bonk": {"ability":"Mold Breaker","item":"Hearthflame Mask","nature":"Jolly","teraType":"Fire","evs":{"hp":4,"at":252,"sp":252},"moves":["Ivy Cudgel","Wood Hammer","Follow Me","Spiky Shield"]},
     "BSS Reg I ALL STAR": {"level":50,"ability":"Mold Breaker","item":"Hearthflame Mask","nature":"Jolly","teraType":"Fire","evs":{"hp":4,"at":252,"sp":252},"moves":["Ivy Cudgel","Horn Leech","Swords Dance","Play Rough"]},
@@ -4737,6 +4751,8 @@ var SETDEX_SV = {
     "National Dex Doubles Showdown Usage": {"ability":"Mold Breaker","item":"Hearthflame Mask","nature":"Jolly","teraType":"Fire","evs":{"hp":72,"at":252,"sp":184},"moves":["Ivy Cudgel","Spiky Shield","Follow Me","Grassy Glide"]}
   },
   "Ogerpon-Cornerstone": {
+    "TeraMax Swords Dance": {"ability":"Sturdy","item":"Cornerstone Mask","nature":"Jolly","teraType":"Rock","evs":{"at":252,"df":4,"sp":252},"moves":["Swords Dance","Ivy Cudgel","Power Whip","Close Combat"]},
+    "TeraMax Sand Rush": {"ability":"Sand Rush","item":"Cornerstone Mask","nature":"Adamant","teraType":"Rock","evs":{"hp":8,"at":252,"sp":248},"moves":["Swords Dance","Ivy Cudgel","Power Whip","Close Combat"]},
     "OU Swords Dance": {"ability":"Sturdy","item":"Cornerstone Mask","nature":"Jolly","teraType":"Rock","evs":{"at":252,"df":4,"sp":252},"moves":["Swords Dance","Ivy Cudgel","Power Whip","Low Kick"]},
     "UU Swords Dance": {"ability":"Sturdy","item":"Cornerstone Mask","nature":"Jolly","teraType":"Rock","evs":{"at":252,"sd":4,"sp":252},"moves":["Swords Dance","Ivy Cudgel","Power Whip","Stomping Tantrum"]},
     "UU All-Out Attacker": {"ability":"Sturdy","item":"Cornerstone Mask","nature":"Jolly","teraType":"Rock","evs":{"at":252,"sd":4,"sp":252},"moves":["Ivy Cudgel","Power Whip","Stomping Tantrum","U-turn"]},
@@ -5089,7 +5105,11 @@ var SETDEX_SV = {
     "Balanced Hackmons Showdown Usage": {"ability":"Good as Gold","item":"Focus Sash","nature":"Adamant","evs":{"hp":252,"at":252,"df":252,"sd":252,"sp":248},"moves":["Sunsteel Strike","Thunderous Kick","Tidy Up","Counter"]}
   },
   "Togekiss": {
-    "National Dex UU Showdown Usage": {"ability":"Serene Grace","item":"Heavy-Duty Boots","nature":"Timid","evs":{"hp":252,"sa":4,"sp":252},"moves":["Air Slash","Roost","Thunder Wave","Nasty Plot"]},
+    "TeraMax Physically Defensive": {"ability":"Thick Fat","item":"Heavy-Duty Boots","nature":"Bold","teraType":"Ground","evs":{"hp":252,"def":240,"sp":16},"moves":["Moonblast","Roost","Thunder Wave","Flamethrower"]},
+    "TeraMax Dynamax Sweeper": {"ability":"Thick Fat","nature":"Timid","teraType":"Fairy","evs":{"sa":252,"sd":4,"sp":252},"moves":["Moonblast","Hurricane","Nasty Plot","Fire Blast"]},
+    "TeraMax ParaFlinch": {"ability":"Serene Grace","item":"Leftovers","nature":"Timid","teraType":"Steel","evs":{"sa":252,"sd":4,"sp":252},"moves":["Moonblast","Roost","Thunder Wave","Air Slash"]},
+    "TeraMax Choice Specs": {"ability":"Thick Fat","item":"Choice Specs","nature":"Timid","teraType":"Ground","evs":{"sa":252,"sd":4,"sp":252},"moves":["Moonblast","Hurricane","Trick","Fire Blast"]},
+	"National Dex UU Showdown Usage": {"ability":"Serene Grace","item":"Heavy-Duty Boots","nature":"Timid","evs":{"hp":252,"sa":4,"sp":252},"moves":["Air Slash","Roost","Thunder Wave","Nasty Plot"]},
     "National Dex Doubles Showdown Usage": {"ability":"Serene Grace","item":"Assault Vest","nature":"Modest","teraType":"Steel","evs":{"hp":252,"sa":252,"sd":4},"moves":["Air Slash","Dazzling Gleam","Follow Me","Ancient Power"]},
     "National Dex RU Showdown Usage": {"ability":"Serene Grace","item":"Heavy-Duty Boots","nature":"Timid","evs":{"sa":252,"sd":4,"sp":252},"moves":["Air Slash","Roost","Defog","Thunder Wave"]}
   },
