@@ -32,6 +32,8 @@ var SETDEX_SV = {
     "LC Sun Wallbreaker": {"level":5,"ability":"Solar Power","item":"Choice Scarf","nature":"Timid","teraType":"Fire","evs":{"hp":44,"df":12,"sa":196,"sp":236},"moves":["Weather Ball","Fire Blast","Overheat","Sleep Talk"]}
   },
   "Charizard": {
+    "TeraMax Gigantamax (Physical)": {"ability":"Blaze","item":"Wishing Stone","nature":"Jolly","teraType":"Fire","evs":{"at":252,"sd":4,"sp":252},"moves":["Blast Burn","Fly","Focus Punch","Earthquake"]},
+    "TeraMax Gigantamax (Special)": {"ability":"Blaze","item":"Wishing Stone","nature":"Timid","teraType":"Fire","evs":{"sa":252,"sd":4,"sp":252},"moves":["Blast Burn","Overheat","Hurricane","Solar Beam"]},
     "PU Sun Wallbreaker": {"ability":"Solar Power","item":"Choice Specs","nature":"Timid","teraType":"Fire","evs":{"df":4,"sa":252,"sp":252},"moves":["Weather Ball","Solar Beam","Focus Blast","Flamethrower"]},
     "National Dex Drought Wallbreaker": {"ability":"Blaze","item":"Charizardite Y","nature":"Timid","ivs":{"at":0},"evs":{"df":4,"sa":252,"sp":252},"moves":["Weather Ball","Solar Beam","Scorching Sands","Roost"]},
     "National Dex Setup Sweeper": {"ability":"Blaze","item":"Charizardite X","nature":"Jolly","evs":{"at":252,"sd":4,"sp":252},"moves":["Dragon Dance","Flare Blitz","Dragon Claw","Earthquake"]},
@@ -50,10 +52,24 @@ var SETDEX_SV = {
     "National Dex Setup Sweeper": {"ability":"Tough Claws","item":"Charizardite X","nature":"Jolly","evs":{"at":252,"sd":4,"sp":252},"moves":["Dragon Dance","Flare Blitz","Dragon Claw","Earthquake"]},
     "National Dex Monotype Dragon Dance (Fire)": {"ability":"Tough Claws","item":"Charizardite X","nature":"Jolly","evs":{"at":252,"sd":4,"sp":252},"moves":["Dragon Dance","Flare Blitz","Dragon Claw","Earthquake"]}
   },
+  "Charizard-Gmax": {
+    "TeraMax Gigantamax (Physical)": {"ability":"Blaze","item":"Wishing Stone","nature":"Jolly","teraType":"Fire","evs":{"at":252,"sd":4,"sp":252},"moves":["Blast Burn","Fly","Focus Punch","Earthquake"]},
+    "TeraMax Gigantamax (Special)": {"ability":"Blaze","item":"Wishing Stone","nature":"Timid","teraType":"Fire","evs":{"sa":252,"sd":4,"sp":252},"moves":["Blast Burn","Overheat","Hurricane","Solar Beam"]}
+  },
   "Blastoise": {
+    "TeraMax Gigantamax": {"ability":"Filter","item":"Wishing Stone","nature":"Modest","teraType":"Water","evs":{"df":148,"sa":240,"sd":88,"sp":32},"moves":["Hydro Cannon","Sludge Bomb","Flash Cannon","Focus Blast"]},
     "UU Shell Smash": {"ability":"Torrent","item":"White Herb","nature":"Modest","teraType":"Electric","evs":{"sa":252,"sd":4,"sp":252},"moves":["Shell Smash","Surf","Ice Beam","Tera Blast"]},
     "National Dex Doubles Showdown Usage": {"ability":"Torrent","item":"Blastoisinite","nature":"Modest","teraType":"Water","evs":{"sa":252,"sd":4,"sp":252},"moves":["Shell Smash","Protect","Water Spout","Aura Sphere"]},
     "National Dex RU Showdown Usage": {"ability":"Torrent","item":"Normalium Z","nature":"Modest","evs":{"hp":4,"sa":252,"sp":252},"moves":["Shell Smash","Ice Beam","Hydro Pump","Hyper Beam"]}
+  },
+  "Blastoise-Gmax": {
+    "TeraMax Gigantamax": {"ability":"Stamina","item":"Wishing Stone","nature":"Modest","teraType":"Water","evs":{"df":148,"sa":240,"sd":88,"sp":32},"moves":["Hydro Cannon","Sludge Bomb","Flash Cannon","Focus Blast"]}
+  },
+  "Butterfree": {
+    "TeraMax Gigantamax": {"ability":"Magic Guard","item":"Wishing Stone","nature":"Timid","teraType":"Water","evs":{"sa":252,"sd":4,"sp":252},"moves":["Pollen Puff","Hurricane","Earth Power","Sludge Bomb"]}
+  },
+  "Butterfree-Gmax": {
+    "TeraMax Gigantamax": {"ability":"Soul-Heart","item":"Wishing Stone","nature":"Timid","teraType":"Water","evs":{"sa":252,"sd":4,"sp":252},"moves":["Pollen Puff","Hurricane","Earth Power","Sludge Bomb"]}
   },
   "Beedrill": {
     "National Dex UU Please Don't Use Mega Beedrill": {"ability":"Adaptability","item":"Beedrillite","nature":"Jolly","evs":{"at":252,"sd":4,"sp":252},"moves":["U-turn","Poison Jab","Drill Run","Knock Off"]},
@@ -330,6 +346,12 @@ var SETDEX_SV = {
   "Gengar-Gmax": {
     "TeraMax Gigantamax": {"ability":"Corrosion","item":"Wishing Stone","nature":"Timid","teraType":"Ghost","ivs":{"at":0},"evs":{"sa":252,"sd":4,"sp":252},"moves":["Shadow Ball","Sludge Wave","Focus Blast","Thunder"]}
   },
+  "Kingler": {
+    "TeraMax Gigantamax": {"ability":"Hyper Cutter","item":"Wishing Stone","nature":"Jolly","teraType":"Water","evs":{"at":252,"sd":4,"sp":252},"moves":["Crabhammer","Meteor Mash","High Horsepower","Liquidation"]}
+  },
+  "Kingler-Gmax": {
+    "TeraMax Gigantamax": {"ability":"Anger Shell","item":"Wishing Stone","nature":"Jolly","teraType":"Water","evs":{"at":252,"sd":4,"sp":252},"moves":["Crabhammer","Meteor Mash","High Horsepower","Liquidation"]}
+  },
   "Electrode-Hisui": {
     "PU Pivot": {"ability":"Soundproof","item":"Heavy-Duty Boots","nature":"Timid","teraType":"Fire","ivs":{"at":0},"evs":{"df":4,"sa":252,"sp":252},"moves":["Volt Switch","Thunderbolt","Leaf Storm","Taunt"]},
     "Almost Any Ability Offensive Pivot": {"ability":"Magic Guard","item":"Life Orb","nature":"Timid","evs":{"sa":252,"sd":4,"sp":252},"moves":["Chloroblast","Volt Switch","Thunderbolt","Thunder Wave"]},
@@ -482,10 +504,14 @@ var SETDEX_SV = {
     "Balanced Hackmons Showdown Usage": {"ability":"Aerilate","item":"Life Orb","nature":"Jolly","evs":{"hp":252,"at":252,"df":252,"sd":252,"sp":252},"moves":["Population Bomb","Coil","Diamond Storm","Brave Bird"]}
   },
   "Snorlax": {
+    "TeraMax Gigantamax": {"ability":"Immunity","item":"Wishing Stone","nature":"Adamant","teraType":"Normal","evs":{"hp":8,"at":252,"df":76,"sd":96,"sp":76},"moves":["Body Slasm","Focus Punch","Heat Slam","Earthquake"]},
     "PU Curse": {"ability":"Thick Fat","item":"Leftovers","nature":"Careful","teraType":"Fairy","evs":{"hp":12,"df":244,"sd":252},"moves":["Curse","Body Slam","Heat Crash","Rest"]},
     "Monotype Curse": {"ability":"Thick Fat","item":"Chesto Berry","nature":"Careful","evs":{"hp":248,"df":8,"sd":252},"moves":["Curse","Rest","Body Slam","Heavy Slam"]},
     "ZU CurseLax": {"ability":"Thick Fat","item":"Leftovers","nature":"Careful","teraType":"Fairy","evs":{"hp":252,"sd":252,"sp":4},"moves":["Curse","Body Slam","Heat Crash","Rest"]},
     "National Dex Doubles Showdown Usage": {"ability":"Gluttony","item":"Leftovers","nature":"Impish","teraType":"Ghost","evs":{"hp":252,"df":252,"sd":4},"moves":["Belly Drum","High Horsepower","Return","Recycle"]}
+  },
+  "Snorlax-Gmax": {
+    "TeraMax Gigantamax": {"ability":"Natural Cure","item":"Wishing Stone","nature":"Adamant","teraType":"Normal","evs":{"hp":8,"at":252,"df":76,"sd":96,"sp":76},"moves":["Body Slasm","Focus Punch","Heat Slam","Earthquake"]}
   },
   "Articuno": {
     "Monotype Specially Defensive (Flying)": {"ability":"Pressure","item":"Heavy-Duty Boots","nature":"Calm","ivs":{"at":0},"evs":{"hp":248,"sd":208,"sp":52},"moves":["Freeze-Dry","Roost","Substitute","Haze"]},
@@ -3393,8 +3419,18 @@ var SETDEX_SV = {
     "PU Defensive": {"ability":"Flame Body","item":"Heavy-Duty Boots","nature":"Calm","teraType":"Ghost","ivs":{"at":0},"evs":{"hp":248,"df":8,"sd":252},"moves":["Rapid Spin","Stealth Rock","Flamethrower","Earth Power"]},
     "Monotype Physically Defensive (Rock)": {"ability":"Flame Body","item":"Heavy-Duty Boots","nature":"Bold","evs":{"hp":252,"df":252,"sd":4},"moves":["Flamethrower","Body Press","Rapid Spin","Will-O-Wisp"]}
   },
+  "Flapple": {
+	"TeraMax Gigantamax": {"ability":"Ripen","item":"Wishing Stone","nature":"Timid","teraType":"Grass","evs":{"at":252,"sd":4,"sp":252},"moves":["Grav Apple","Outrage","Close Combat","Fly"]}
+  },
+  "Flapple-Gmax": {
+	"TeraMax Gigantamax": {"ability":"Tinted Lens","item":"Wishing Stone","nature":"Timid","teraType":"Grass","evs":{"at":252,"sd":4,"sp":252},"moves":["Grav Apple","Outrage","Close Combat","Fly"]}
+  },
   "Appletun": {
-    "ZU Special Wall": {"ability":"Thick Fat","item":"Heavy-Duty Boots","nature":"Sassy","teraType":"Steel","evs":{"hp":252,"df":4,"sd":252},"moves":["Apple Acid","Dragon Pulse","Dragon Tail","Recover"]}
+	"TeraMax Gigantamax": {"ability":"Thick Fat","item":"Wishing Stone","nature":"Modest","teraType":"Grass","evs":{"df":104,"sa":252,"sd":68,"sp":84},"moves":["Apple Acid","Dragon Meteor","Sludge Bomb","Flamethrower"]},
+	"ZU Special Wall": {"ability":"Thick Fat","item":"Heavy-Duty Boots","nature":"Sassy","teraType":"Steel","evs":{"hp":252,"df":4,"sd":252},"moves":["Apple Acid","Dragon Pulse","Dragon Tail","Recover"]}
+  },
+  "Appletun-Gmax": {
+	"TeraMax Gigantamax": {"ability":"Grassy Surge","item":"Wishing Stone","nature":"Modest","teraType":"Grass","evs":{"df":104,"sa":252,"sd":68,"sp":84},"moves":["Apple Acid","Dragon Meteor","Sludge Bomb","Flamethrower"]}
   },
   "Sandaconda": {
     "TeraMax Defensive Wall": {"ability":"Intimidate","item":"Rocky Helmet","nature":"Impish","teraType":"Water","evs":{"hp":252,"df":168,"sp":88},"moves":["Earthquake","U-turn","Stealth Rock","Glare"]},
@@ -3431,6 +3467,12 @@ var SETDEX_SV = {
     "National Dex RU Choice Specs": {"ability":"Punk Rock","item":"Choice Specs","nature":"Modest","ivs":{"at":0},"evs":{"sa":252,"sd":4,"sp":252},"moves":["Boomburst","Overdrive","Volt Switch","Sludge Bomb"]},
     "National Dex RU Shift Gear": {"ability":"Punk Rock","item":"Throat Spray","nature":"Modest","ivs":{"at":0},"evs":{"sa":252,"sd":4,"sp":252},"moves":["Boomburst","Overdrive","Shift Gear","Sludge Bomb"]}
   },
+  "Centiskorch": {
+    "TeraMax Gigantamax": {"ability":"Magic Bounce","item":"Wishing Stone","nature":"Adamant","teraType":"Fire","evs":{"hp":8,"at":252,"df":36,"sd":76,"sp":136},"moves":["Fire Lash","First Impression","Power Whip","Superpower"]}
+  },
+  "Centiskorch-Gmax": {
+    "TeraMax Gigantamax": {"ability":"Dry Skin","item":"Wishing Stone","nature":"Adamant","teraType":"Fire","evs":{"hp":8,"at":252,"df":36,"sd":76,"sp":136},"moves":["Fire Lash","First Impression","Power Whip","Superpower"]}
+  },
   "Polteageist": {
     "OU Shell Smash": {"ability":"Weak Armor","item":"Focus Sash","nature":"Modest","teraType":"Fighting","evs":{"sa":252,"sd":4,"sp":252},"moves":["Shell Smash","Shadow Ball","Stored Power","Tera Blast"]},
     "Almost Any Ability Shell Smash Sweeper": {"ability":"Queenly Majesty","item":"Focus Sash","nature":"Timid","ivs":{"at":0},"evs":{"sa":252,"sd":4,"sp":252},"moves":["Shell Smash","Shadow Ball","Stored Power","Giga Drain"]},
@@ -3442,6 +3484,7 @@ var SETDEX_SV = {
     "National Dex RU Showdown Usage": {"ability":"Magic Bounce","item":"Eviolite","nature":"Relaxed","evs":{"hp":252,"df":248,"sd":8},"moves":["Healing Wish","Trick Room","Mystical Fire","Psychic"]}
   },
   "Hatterene": {
+    "TeraMax Gigantamax": {"ability":"Magic Bounce","item":"Wishing Stone","nature":"Modest","teraType":"Water","evs":{"hp":172,"sa":252,"sp":84},"moves":["Future Sight","Misty Explosion","Belch","Mystical Fire"]},
     "OU Calm Mind": {"ability":"Magic Bounce","item":"Leftovers","nature":"Bold","teraType":"Water","evs":{"hp":252,"df":204,"sp":52},"moves":["Calm Mind","Draining Kiss","Psychic Noise","Mystical Fire"]},
     "OU Healing Wish": {"ability":"Magic Bounce","item":"Eject Button","nature":"Bold","teraType":"Steel","evs":{"hp":252,"df":124,"sp":132},"moves":["Healing Wish","Psychic Noise","Dazzling Gleam","Nuzzle"]},
     "OU Assault Vest": {"ability":"Magic Bounce","item":"Assault Vest","nature":"Modest","teraType":"Water","ivs":{"at":0},"evs":{"hp":252,"sa":128,"sd":104,"sp":24},"moves":["Psyshock","Draining Kiss","Mystical Fire","Nuzzle"]},
@@ -3459,6 +3502,9 @@ var SETDEX_SV = {
     "Almost Any Ability Showdown Usage": {"ability":"Fluffy","item":"Leftovers","nature":"Bold","evs":{"hp":252,"df":252,"sd":4},"moves":["Draining Kiss","Mystical Fire","Calm Mind","Stored Power"]},
     "CAP Showdown Usage": {"ability":"Magic Bounce","item":"Eject Button","nature":"Bold","teraType":"Water","evs":{"hp":252,"df":124,"sp":132},"moves":["Draining Kiss","Calm Mind","Mystical Fire","Psyshock"]},
     "Anything Goes Showdown Usage": {"ability":"Magic Bounce","item":"Focus Sash","nature":"Quiet","teraType":"Psychic","evs":{"hp":252,"sa":252,"sd":4},"moves":["Trick Room","Healing Wish","Misty Explosion","Draining Kiss"]}
+  },
+  "Hatterene-Gmax": {
+    "TeraMax Gigantamax": {"ability":"Regenerator","item":"Wishing Stone","nature":"Modest","teraType":"Water","evs":{"hp":172,"sa":252,"sp":84},"moves":["Future Sight","Misty Explosion","Belch","Mystical Fire"]}
   },
   "Impidimp": {
     "LC Dual Screens": {"level":5,"ability":"Prankster","item":"Light Clay","nature":"Bold","teraType":"Ghost","evs":{"hp":156,"df":196,"sd":116,"sp":36},"moves":["Reflect","Light Screen","Parting Shot","Dazzling Gleam"]}
@@ -3486,7 +3532,11 @@ var SETDEX_SV = {
     "ZU Hazard Setter": {"ability":"Tough Claws","item":"Heavy-Duty Boots","nature":"Adamant","teraType":"Fairy","evs":{"hp":248,"at":252,"sd":8},"moves":["Stealth Rock","Iron Head","Knock Off","U-turn"]}
   },
   "Alcremie": {
+    "TeraMax Gigantamax": {"ability":"Gooey","item":"Wishing Stone","nature":"Modest","teraType":"Fairy","evs":{"df":136,"sa":124,"sd":152,"sp":96},"moves":["Draining Kiss","Misty Exlosion Armor","Earth Power","Psychic"]},
     "PU Double Dance": {"ability":"Aroma Veil","item":"Grassy Seed","nature":"Bold","teraType":"Poison","evs":{"hp":252,"df":192,"sp":64},"moves":["Calm Mind","Acid Armor","Draining Kiss","Stored Power"]}
+  },
+  "Alcremie-Gmax": {
+    "TeraMax Gigantamax": {"ability":"Well-Baked Body","item":"Wishing Stone","nature":"Modest","teraType":"Fairy","evs":{"df":136,"sa":124,"sd":152,"sp":96},"moves":["Draining Kiss","Misty Exlosion Armor","Earth Power","Psychic"]}
   },
   "Pincurchin": {
     "NU Terrain Setter": {"ability":"Electric Surge","item":"Terrain Extender","nature":"Bold","teraType":"Water","ivs":{"at":0},"evs":{"hp":252,"df":252,"sd":4},"moves":["Discharge","Scald","Spikes","Recover"]}
@@ -3614,6 +3664,7 @@ var SETDEX_SV = {
     "Balanced Hackmons Magic Guard": {"ability":"Magic Guard","item":"Life Orb","nature":"Naive","evs":{"hp":252,"at":252,"df":252,"sa":252,"sd":252,"sp":252},"moves":["Dragon Energy","Shell Side Arm","Torch Song","Strength Sap"]}
   },
   "Urshifu": {
+    "TeraMax Gigantamax": {"ability":"Unseen Fist","item":"Wishing Stone","nature":"Jolly","teraType":"Dark","evs":{"at":252,"sd":4,"sp":252},"moves":["Wicked Blow","Focus Punch","Iron Head","Giga Impact"]},
     "Ubers Choice Band": {"ability":"Unseen Fist","item":"Choice Band","nature":"Adamant","teraType":"Dark","evs":{"at":252,"df":4,"sp":252},"moves":["Wicked Blow","Close Combat","Sucker Punch","U-turn"]},
     "Ubers Swords Dance": {"ability":"Unseen Fist","item":"Black Glasses","nature":"Adamant","teraType":"Dark","evs":{"at":252,"df":4,"sp":252},"moves":["Wicked Blow","Close Combat","Sucker Punch","Swords Dance"]},
     "BSS Reg I Dancing Bear": {"level":50,"ability":"Unseen Fist","item":"Focus Sash","nature":"Jolly","teraType":"Dark","evs":{"at":252,"df":4,"sp":252},"moves":["Swords Dance","Wicked Blow","Sucker Punch","Close Combat"]},
@@ -3623,7 +3674,11 @@ var SETDEX_SV = {
     "1v1 Chople Berry": {"ability":"Unseen Fist","item":"Chople Berry","nature":"Jolly","evs":{"hp":72,"at":124,"sd":132,"sp":180},"moves":["Wicked Blow","Close Combat","Sucker Punch","Bulk Up"]},
     "Ubers UU Choice Band": {"ability":"Unseen Fist","item":"Choice Band","nature":"Adamant","teraType":"Dark","evs":{"at":252,"sd":4,"sp":252},"moves":["Wicked Blow","Close Combat","Sucker Punch","U-turn"]}
   },
+  "Urshifu-Gmax": {
+    "TeraMax Gigantamax": {"ability":"Iron Fist","item":"Wishing Stone","nature":"Jolly","teraType":"Dark","evs":{"at":252,"sd":4,"sp":252},"moves":["Wicked Blow","Focus Punch","Iron Head","Giga Impact"]}
+  },
   "Urshifu-Rapid-Strike": {
+    "TeraMax Gigantamax": {"ability":"Unseen Fist","item":"Wishing Stone","nature":"Jolly","teraType":"Dark","evs":{"at":252,"sd":4,"sp":252},"moves":["Surging Strikes","Focus Punch","Ice Spinner","Liquidation"]},
     "Ubers Choice Band": {"ability":"Unseen Fist","item":"Choice Band","nature":"Adamant","teraType":"Water","evs":{"at":252,"df":4,"sp":252},"moves":["Surging Strikes","Close Combat","Poison Jab","U-turn"]},
     "VGC 2025 Reg I Choice Locked": {"level":50,"ability":"Unseen Fist","item":"Choice Scarf","nature":"Adamant","teraType":"Water","evs":{"hp":4,"at":236,"df":4,"sd":12,"sp":252},"moves":["Surging Strikes","Close Combat","U-turn","Aqua Jet"]},
     "BSS Reg I Offensive": {"level":50,"ability":"Unseen Fist","item":"Punching Glove","nature":"Adamant","teraType":"Water","evs":{"hp":4,"at":252,"sp":252},"moves":["Surging Strikes","Close Combat","Aqua Jet","Swords Dance"]},
@@ -3640,6 +3695,9 @@ var SETDEX_SV = {
     "1v1 IronPress": {"ability":"Unseen Fist","item":"Sitrus Berry","nature":"Jolly","evs":{"hp":4,"df":252,"sp":252},"moves":["Iron Defense","Body Press","Surging Strikes","Taunt"]},
     "Ubers UU Choice Scarf": {"ability":"Unseen Fist","item":"Choice Scarf","nature":"Adamant","teraType":"Water","evs":{"at":252,"sd":4,"sp":252},"moves":["Surging Strikes","Close Combat","Aqua Jet","U-turn"]},
     "Anything Goes Showdown Usage": {"ability":"Unseen Fist","item":"Choice Scarf","nature":"Jolly","teraType":"Water","evs":{"at":252,"sd":4,"sp":252},"moves":["Surging Strikes","Close Combat","Aqua Jet","U-turn"]}
+  },
+  "Urshifu-Gmax": {
+    "TeraMax Gigantamax": {"ability":"Iron Fist","item":"Wishing Stone","nature":"Jolly","teraType":"Dark","evs":{"at":252,"sd":4,"sp":252},"moves":["Surging Strikes","Focus Punch","Ice Spinner","Liquidation"]}
   },
   "Zarude": {
     "UU Swords Dance": {"ability":"Leaf Guard","item":"Leftovers","nature":"Jolly","teraType":"Poison","evs":{"at":252,"df":4,"sp":252},"moves":["Swords Dance","Knock Off","Power Whip","Jungle Healing"]},
@@ -5198,7 +5256,10 @@ var SETDEX_SV = {
     "ZU Showdown Usage": {"ability":"Pressure","item":"Leftovers","nature":"Impish","teraType":"Fairy","evs":{"hp":252,"at":4,"df":252},"moves":["Shadow Sneak","Poltergeist","Substitute","Focus Punch"]}
   },
   "Lapras": {
-    "ZU Showdown Usage": {"ability":"Water Absorb","item":"Loaded Dice","nature":"Adamant","teraType":"Ground","evs":{"at":252,"sd":4,"sp":252},"moves":["Dragon Dance","Earthquake","Liquidation","Icicle Spear"]}
+    "TeraMax Gigantamax": {"ability":"Shell Armor","item":"Wishing Stone","nature":"Modest","teraType":"Water","evs":{"hp":8,"df":84,"sa":252,"sd":68,"sp":96},"moves":["Freeze-Dry","Hydro Pump","Blizzard","Earth Power"]}
+  },
+  "Lapras-Gmax": {
+    "TeraMax Gigantamax": {"ability":"Ice Scales","item":"Wishing Stone","nature":"Modest","teraType":"Water","evs":{"hp":8,"df":84,"sa":252,"sd":68,"sp":96},"moves":["Freeze-Dry","Hydro Pump","Blizzard","Earth Power"]}
   },
   "Dedenne": {
     "ZU Showdown Usage": {"ability":"Pickup","item":"Focus Sash","nature":"Modest","teraType":"Grass","evs":{"sa":252,"sd":4,"sp":252},"moves":["Thunderbolt","Dazzling Gleam","Grass Knot","Nuzzle"]}
