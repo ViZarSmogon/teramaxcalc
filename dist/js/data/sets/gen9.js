@@ -173,15 +173,6 @@ var SETDEX_SV = {
     "TeraMax Hex": {"ability":"Levitate","item":"Heavy-Duty Boots","nature":"Timid","teraType":"Fairy","evs":{"df":4,"sa":252,"sp":252},"moves":["Hex","Sludge Bomb","Dazzling Gleam","Will-O-Wisp"]},
     "TeraMax Choice Scarf": {"ability":"Levitate","item":"Choice Scarf","nature":"Timid","teraType":"Fairy","evs":{"sa":252,"sd":4,"sp":252},"moves":["Shadow Ball","Sludge Bomb","Trick","Chilly Reception"]},
 	"TeraMax Gigantamax": {"ability":"Levitate","item":"Wishing Stone","nature":"Timid","teraType":"Ghost","ivs":{"at":0},"evs":{"sa":252,"sd":4,"sp":252},"moves":["Shadow Ball","Sludge Wave","Focus Blast","Thunder"]},
-	"RU Nasty Plot": {"ability":"Cursed Body","item":"Air Balloon","nature":"Timid","teraType":"Ghost","evs":{"df":4,"sa":252,"sp":252},"moves":["Nasty Plot","Shadow Ball","Sludge Wave","Focus Blast"]},
-    "RU Hex": {"ability":"Cursed Body","item":"Heavy-Duty Boots","nature":"Timid","teraType":"Fairy","evs":{"df":4,"sa":252,"sp":252},"moves":["Hex","Sludge Bomb","Dazzling Gleam","Will-O-Wisp"]},
-    "RU Choice Scarf": {"ability":"Cursed Body","item":"Choice Scarf","nature":"Timid","teraType":"Ghost","evs":{"sa":252,"sd":4,"sp":252},"moves":["Shadow Ball","Sludge Wave","Trick","Toxic Spikes"]},
-    "National Dex Monotype Choiced Attacker (Ghost)": {"ability":"Cursed Body","item":"Choice Scarf","nature":"Timid","ivs":{"at":0},"evs":{"sa":252,"sd":4,"sp":252},"moves":["Shadow Ball","Sludge Bomb","Focus Blast","Trick"]},
-    "Almost Any Ability Special Wallbreaker": {"ability":"Sheer Force","item":"Life Orb","nature":"Timid","ivs":{"at":0},"evs":{"sa":252,"sd":4,"sp":252},"moves":["Shadow Ball","Focus Blast","Sludge Wave","Nasty Plot"]},
-    "Almost Any Ability NormGar": {"ability":"Normalize","item":"Black Sludge","nature":"Timid","ivs":{"at":0},"evs":{"sa":252,"sd":4,"sp":252},"moves":["Shadow Ball","Toxic Spikes","Skill Swap","Mean Look"]},
-    "Almost Any Ability Sheer Force": {"ability":"Sheer Force","item":"Life Orb","nature":"Timid","ivs":{"at":0},"evs":{"sa":252,"sd":4,"sp":252},"moves":["Shadow Ball","Focus Blast","Nasty Plot","Sludge Wave"]},
-    "Almost Any Ability Normalize": {"ability":"Normalize","item":"Black Sludge","nature":"Timid","ivs":{"at":0},"evs":{"sa":252,"sd":4,"sp":252},"moves":["Skill Swap","Mean Look","Shadow Ball","Toxic Spikes"]},
-    "UU Showdown Usage": {"ability":"Cursed Body","item":"Focus Sash","nature":"Timid","teraType":"Ghost","evs":{"sa":252,"sd":4,"sp":252},"moves":["Shadow Ball","Sludge Wave","Focus Blast","Nasty Plot"]}
   },
   "Gengar-Gmax": {
     "TeraMax Gigantamax": {"ability":"Corrosion","item":"Wishing Stone","nature":"Timid","teraType":"Ghost","ivs":{"at":0},"evs":{"sa":252,"sd":4,"sp":252},"moves":["Shadow Ball","Sludge Wave","Focus Blast","Thunder"]}
